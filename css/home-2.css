@@ -1,0 +1,59 @@
+/*!
+ * Start Bootstrap - The Big Picture HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background: none;
+}
+
+a{
+	color: #219ab3;
+}
+
+header{
+
+	padding-top: 50px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 100px;
+	color: #993B3B;
+	color:#662727;
+}
+
+.intro-header{
+	margin-left: -100px;
+}
+
+.header-1{
+	margin-top: -50px;
+}
+
+.intro{
+	font-family: 'Lato', sans-serif;
+	font-size: 25px;
+	color:#662727;
+	color: white;
+}
+
+.navbar-inverse{
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	background-color: #662727;;
+}
+
+.navbar-inverse .navbar-text{
+	color:white;
+}
+
+.full {
+	background-color: #FF6262;
+  /*background: url(http://placehold.it/1920x1080) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;*/
+}
