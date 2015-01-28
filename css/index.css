@@ -40,6 +40,12 @@ header{
 	color: white;
 }
 
+.list-inline li a{
+    margin-left: 12px;
+    margin-right: 12px;
+
+}
+
 .navbar-inverse{
 	font-family: 'Lato', sans-serif;
 	font-weight: 100;
