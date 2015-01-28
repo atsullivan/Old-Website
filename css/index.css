@@ -170,12 +170,7 @@ header{
 }
 
 .last-item{
-    display: block;
-    text-decoration: none;
-    margin-top: 100px;
     margin-bottom: 1000px;
-    text-align: center;
-    color:white;
 }
 
 .sidebar-nav li a:hover {
