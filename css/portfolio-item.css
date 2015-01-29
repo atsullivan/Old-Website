@@ -4,21 +4,29 @@ body {
 }
 
 i {
-	margin-top: -20px;
+	
 	margin-left: -40px;
 	color: #ed4e6e;
+	color:#00A37A;
+}
+
+h3 a{
+	color: #00A37A;
+	font-weight: 100;
 }
 
 .navbar-brand{
 	font-family: 'Lato', sans-serif;
 	font-size: 30px;
+	color:#00A37A !important;
+	
 	
 }
 
 .navbar{
 	font-family: 'Lato', sans-serif;
 	font-size: 40px;
-    font-weight: 700;
+    font-weight: 100;
 }
 
 .portfolio-item {
