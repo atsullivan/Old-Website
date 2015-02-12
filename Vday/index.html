@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html class="full" lang="en">
+<!-- Make sure the <html> tag is set to the .full CSS class. Change the background image in the full.css file. -->
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>The Big Picture - Start Bootstrap Template</title>
+
+    <!-- Custom Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/the-big-picture.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/demo.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <!-- <nav class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
+        <div class="container">
+           
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Start Bootstrap</a>
+            </div>
+            
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Services</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            
+        </div>
+        
+    </nav> -->
+
+    <!-- Page Content -->
+    <!-- <div class="container"> -->
+        <!-- <div class="row">
+            <div class="col-md-6 col-sm-12">
+                <h1>The Big Picture</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, iusto, unde, sunt incidunt id sapiente rerum soluta voluptate harum veniam fuga odit ea pariatur vel eaque sint sequi tenetur eligendi.</p>
+            </div>
+        </div> -->
+        <!-- /.row -->
+        
+    <!-- <div class="container">
+      <form class="form-signin" method="post" action="index.html">
+        <h2 class="form-signin-heading">Please sign in</h2>
+        <label for="inputPassword" class="sr-only">Password</label>
+        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+        <button class="btn btn-lg btn-primary btn-block" type="submit" >Sign in</button>
+      </form>
+    </div> -->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section">
+            <div class="section__content clearfix">
+              <div class="card effect__hover">
+                <div class="card__front">
+                  <span class="card__text">
+                    Hillpup
+                  </span>
+                </div>
+                <div class="card__back">
+                  <span class="card__text">
+                    <form class="form-signin" method="post" action="home.html">
+                      <label for="inputPassword" class="sr-only">Password</label>
+                      <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+                      <button class="btn btn-lg btn-primary btn-block" type="submit" >Sign in</button>
+                    </form>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- </div> -->
+    <!-- /.container -->
+
+    <!-- demo js -->
+<script src="js/demo.js"></script>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <script language="javascript">
+      $('form').on('submit',function(){
+       if($('#inputPassword').val()==("a")){
+           return true;
+       }
+       else alert('Incorrect');
+       return false;
+    });
+    </script>
+
+</body>
+
+</html>
