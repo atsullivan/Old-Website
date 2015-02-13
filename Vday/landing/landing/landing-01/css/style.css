@@ -1673,7 +1673,14 @@ section * {
   filter: alpha(opacity=10);
 }
 .content-23.custom-bg {
-  background-image: url('../img/Italy_001.png');
+  background-image: url('../../../../images/5.jpg');
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.content-23.custom-bg2 {
+  background-image: url('../../../../images/vid.png');
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-attachment: fixed;
