@@ -9,7 +9,7 @@ body {
 }
 
 .navbar {
-    z-index: 100;
+  z-index: 100;
   width: 100%;
   padding-top: 0;
   padding-bottom: 0;
@@ -20,7 +20,6 @@ body {
 }
 
 .navbar .navbar-nav {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
     font-size: 20px;
     margin-top: 10px;
@@ -28,11 +27,10 @@ body {
 }
 
 .navbar .navbar-brand {
-    padding-top: 25px;
+  padding-top: 25px;
   font-size: 40px;
   font-weight: normal;
   color: #ffffff;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
   font-weight: 600;
 }
@@ -63,7 +61,7 @@ body {
     font-family: 'Vollkorn', serif;
     font-size: 35px;
     font-style: italic;
-    color: white;
+    color: #00B28F;
 }
 
 .featurette-divider {
@@ -72,6 +70,15 @@ body {
 
 .featurette {
     overflow: hidden;
+    font-family: 'Vollkorn', serif;
+}
+
+.featurette .featurette-heading {
+    color: #00B28F;;
+}
+
+.featurette .lead {
+    
 }
 
 .featurette-image.pull-left {
@@ -84,6 +91,32 @@ body {
 
 .featurette-heading {
     font-size: 50px;
+}
+
+.featurette .btn.btn-clear {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: none;
+  border: 2px solid #e74c3c;
+  font-size: 14px;
+  font-weight: normal;
+  color: #7f8c8d;
+  font-weight: 500;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 12px 28px 12px;
+  color: #e74c3c;
+}
+.featurette .btn.btn-clear:hover,
+.featurette .btn.btn-clear:focus {
+  background: #e74c3c;
+  color: #fff;
+}
+.featurette .btn.btn-clear:active,
+.featurette .btn.btn-clear.active {
+  border-color: #c44133;
+  background: #c44133;
+  color: rgba(255, 255, 255, 0.75);
 }
 
 footer {
