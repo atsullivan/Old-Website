@@ -98,18 +98,18 @@ body {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   background: none;
-  border: 2px solid #e74c3c;
+  border: 2px solid #00B28F;
   font-size: 14px;
   font-weight: normal;
-  color: #7f8c8d;
+  color: #00B28F;
   font-weight: 500;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding: 12px 28px 12px;
-  color: #e74c3c;
+  color: #00B28F;
 }
 .featurette .btn.btn-clear:hover,
 .featurette .btn.btn-clear:focus {
-  background: #e74c3c;
+  background: #00B28F;
   color: #fff;
 }
 .featurette .btn.btn-clear:active,
@@ -121,6 +121,33 @@ body {
 
 footer {
     margin: 50px 0;
+}
+
+footer .btn.btn-clear {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: none;
+  border: none;
+  font-size: 16px;
+  font-weight: normal;
+  color: #7f8c8d;
+  font-weight: 500;
+  font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+  padding: 12px 28px 12px;
+  color: #00B28F;
+}
+
+footer .btn.btn-clear:hover,
+footer .btn.btn-clear:focus {
+  background: #00B28F;
+  color: #fff;
+}
+footer .btn.btn-clear:active,
+footer .btn.btn-clear.active {
+  border-color: #c44133;
+  background: #c44133;
+  color: rgba(255, 255, 255, 0.75);
 }
 
 @media(max-width:1200px) {
