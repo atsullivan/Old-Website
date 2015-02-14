@@ -35,4 +35,12 @@ body {
     font-size: 35px;
     color: #00B28F;
     color: black;
+    margin-top: 45px;
+}
+
+.jumbotron .title {
+	color: #CC0000;
+	font-size: 60px;
+	text-align: center;
+	font-style: italic;
 }
