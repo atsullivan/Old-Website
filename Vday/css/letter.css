@@ -44,3 +44,8 @@ body {
 	text-align: center;
 	font-style: italic;
 }
+
+.jumbotron .signature {
+	text-align: center;
+	color: #CC0000;
+}
