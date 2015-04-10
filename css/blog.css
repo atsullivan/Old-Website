@@ -1,0 +1,22 @@
+body {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background: none;
+}
+
+.full {
+  background: url(../img/typewriter.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+	font-family: 'Special Elite', cursive;
+	font-size: 90px;
+}
+
+.container {
+  padding-top: 200px;
+}
